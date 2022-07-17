@@ -5,8 +5,10 @@
 
 <cfset pagetitle ="Home">
 <cfinclude template = "./templates/header.cfm">
-  <div class="bg-light p-5 rounded">
-    <h1>To-Do List</h1>
+  <div class="row">
+    <div class="col-12 pt-5 text-center">
+      <h1>To-Do List</h1>
+    </div>
   </div>
   <div class="container">
     <div class="row">
